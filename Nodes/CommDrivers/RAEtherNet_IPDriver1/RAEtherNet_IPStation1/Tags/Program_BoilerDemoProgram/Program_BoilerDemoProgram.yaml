@@ -1,0 +1,12 @@
+Name: 'Program:BoilerDemoProgram'
+Type: FolderType
+Children:
+- Name: Count
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:BoilerDemoProgram.Count"

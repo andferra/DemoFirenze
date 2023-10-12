@@ -1,0 +1,49 @@
+Name: myVariables
+Type: FolderType
+Children:
+- Name: VarBool
+  Id: g=c922c178819d38e60c49e6357cde19e7
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: VarInt
+  Id: g=7f6c6601fe8f078a7b0e40b67bef3ed2
+  Type: BaseDataVariableType
+  DataType: Int16
+  Value: 0
+- Name: ArrayINT
+  Id: g=5046b2da5952f56e35e7531aa21c46a4
+  Type: BaseDataVariableType
+  DataType: Int16
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+  Value: [0,11,22,33,0,0,0,0,0,0]
+- Name: LimMin
+  Id: g=d42964c48d19d4fbe18851ac99aa8cc0
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: LimMax
+  Id: g=438ab011e7890e78af02df92861fba68
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 100
+- Name: VarHMI
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../VarPLC"
+- Name: VarPLC
+  Id: g=b18358a7ed8c4f02cef7852417af7318
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: VarStringa
+  Id: g=94c27615d871d1d3476c341605681ca0
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "pippo"

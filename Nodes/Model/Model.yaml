@@ -1,0 +1,44 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- File: myVariables/myVariables.yaml
+- Name: ObjectMotor
+  Id: g=de689ec914863efb5d9d8549bc41ebca
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: ObjectMotor1
+  Id: g=c581997878565e3070aee3a9f24b1b7d
+  Type: ObjectMotor
+  Children:
+  - Name: Speed
+    Id: g=04db08b591cce56f8617be6ee20f6f3d
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 11
+  - Name: Acceleration
+    Id: g=c8577296a91930a35f624cae1e4a362e
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 22
+- Name: ObjectMotor2
+  Id: g=003152673d104bc1989a19b96ca735be
+  Type: ObjectMotor
+  Children:
+  - Name: Speed
+    Id: g=321ea909636dd7732febff5d4ff6aa13
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 100
+  - Name: Acceleration
+    Id: g=fc58415cad84e9cf267d023a53821466
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 200
