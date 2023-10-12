@@ -1494,3 +1494,12 @@ Children:
   Id: g=b892c57c457bc671dc88236edbe948f4
   Supertype: Screen
   ReferenceType: HasComponent
+  Children:
+  - Name: Button1
+    Type: Button
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"myButton"}
